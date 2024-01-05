@@ -1,0 +1,169 @@
+body {
+  
+  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; 
+    
+    background-size: cover;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    text-align: center;
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #e19acf;
+  }
+  
+  .login-btn {
+    width: 60%;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF4141;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #ff3333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-color: #be9ac0; /* Add your desired background color */
+  }
+  
+  .login-form {
+    width: 400px; /* Set the width of the form */
+    padding: 20px; /* Add padding for better aesthetics */
+    background-color: white; /* Set background color for the form */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-color: #be9ac0; /* Add your desired background color */
+  }
+  
+  .login-form {
+    width: 500px; /* Increase the width */
+    height: 500px; /* Increase the height */
+    padding: 40px; /* Adjust padding for better aesthetics */
+    background-color: white; /* Set background color for the form */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a subtle effect */
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-btn {
+    width: 100%; /* Make the button full width within the form */
+    padding: 15px; /* Add padding for better aesthetics */
+    background-color: #FF4141; /* Add your desired button background color */
+    color: white; /* Set text color for the button */
+    border: none;
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer;
+  }
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-color: #be9ac0; /* Add your desired background color */
+  }
+  
+  .login-form {
+    width: 500px; /* Increase the width of the form */
+    padding: 30px; /* Adjust padding for better aesthetics */
+    background-color: white; /* Set background color for the form */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Optional: Add box shadow for a subtle effect */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Increase the margin-bottom for more spacing */
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    height: 50px; /* Adjust the height of the input boxes */
+    padding: 10px; /* Adjust padding for better aesthetics */
+    font-size: 16px; /* Adjust the font size of the input text */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    border: 1px solid #e19acf;
+  }
+  
+  .login-btn {
+    width: 100%; /* Make the button full width within the form */
+    height: 50px; /* Adjust the height of the button */
+    padding: 12px; /* Adjust padding for better aesthetics */
+    border: none;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    background-color: #ff4141; /* Add your desired button background color */
+    color: white; /* Set text color for the button */
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #ff3333;
+    margin-bottom: 15px; /* Adjust margin-bottom for more spacing */
+    text-align: center;
+  }
+  
+  
+  
